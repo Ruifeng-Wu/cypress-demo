@@ -5,5 +5,5 @@
   "chromeWebSecurity": false,
   "pageLoadTimeout": 100000,
   "projectId": "ma4hs3",
-  "defaultCommandTimeout": 12000
+  "defaultCommandTimeout": 3000
 }

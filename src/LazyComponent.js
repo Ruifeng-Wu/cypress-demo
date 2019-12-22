@@ -12,7 +12,7 @@ class LazyComponent extends Component {
     componentDidMount() {
         setTimeout(() => {
             this.setState({lazyElement: true})
-        }, 500);
+        }, 5000);
     }
 
     render() {
@@ -20,8 +20,8 @@ class LazyComponent extends Component {
         return (
             <div>
                 {
-                    lazyElement ? <div>
-                        <li>a</li>
+                    lazyElement ? <div id='list'>
+                        <li id='a'>a</li>
                         <li>b</li>
                         <li>c</li>
                     </div> : null
