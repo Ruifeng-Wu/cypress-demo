@@ -12,15 +12,14 @@ function App() {
                 <li>1</li>
                 <li>2</li>
                 <li>3</li>
-                <li>4</li>
-                <li>5</li>
+                <LazyComponent/>
             </div>
             <div id="button">
                 <button>button A</button>
                 <button onClick={handle}>button B</button>
             </div>
             <div><input type="text"/></div>
-            <LazyComponent/>
+
         </div>
     );
 }

@@ -1,0 +1,9 @@
+{
+  "viewportWidth": 1440,
+  "viewportHeight": 900,
+  "execTimeout": 2000,
+  "chromeWebSecurity": false,
+  "pageLoadTimeout": 100000,
+  "projectId": "ma4hs3",
+  "defaultCommandTimeout": 12000
+}
