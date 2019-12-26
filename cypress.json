@@ -3,7 +3,7 @@
   "viewportHeight": 900,
   "execTimeout": 2000,
   "chromeWebSecurity": false,
-  "pageLoadTimeout": 100000,
+  "pageLoadTimeout": 12000,
   "projectId": "ma4hs3",
-  "defaultCommandTimeout": 3000
+  "defaultCommandTimeout": 120000
 }

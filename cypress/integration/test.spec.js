@@ -6,5 +6,6 @@ context('Actions', () => {
     it('DOM element', () => {
         cy.get('li');
         cy.get('#list',{timeout:8000}).find('#a');
+
     });
 });
